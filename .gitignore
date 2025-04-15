@@ -1,0 +1,44 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Model checkpoints (keep only select .h5 manually)
+*.h5
+*.ckpt
+
+# Dataset files (keep only 1–2 small .npy if needed)
+*.npy
+
+# Raw videos and extracted frames
+*.avi
+*.mp4
+frames/
+dataset/
+mobilenet_features/
+resnet_features/
+vgg_features/
+processed_data_*/
+
+# Logs
+*.log
+*.out
+
+# IDE/editor-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Notebook temp files
+.ipynb_checkpoints/
+
+# Jupyter runtime
+~$*.ipynb

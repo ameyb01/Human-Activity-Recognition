@@ -1,0 +1,3 @@
+git add .
+git commit -m "Add .gitignore to clean repo"
+git push
